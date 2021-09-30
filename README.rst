@@ -1,3 +1,15 @@
+external video provider branch
+======
+new object can be added to RTCConfiguration: 
+*videoPacketRecorder 
+*audioPacketRecorder 
+*videoPacketReplay 	
+*audioPacketReplay 	
+
+Replayer objects can bypass the encoder to supply already encoded media flux to RTCRtpSender
+Recorder objects provide a way to get raw encoded incoming media flux from RTCRtpReceiver
+
+
 aiortc
 ======
 
